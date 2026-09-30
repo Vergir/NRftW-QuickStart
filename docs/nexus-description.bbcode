@@ -1,0 +1,55 @@
+[size=5][b]Quick Start[/b][/size]
+
+Launch No Rest for the Wicked and land in your realm. The mod skips the logo video and the main menu: as soon as the menu is ready it presses Continue for you, so you load straight into the world with your last played character. Start the game, grab a drink, come back to your character.
+
+[size=4][b]Features[/b][/size]
+[list]
+[*][b]Skips the logo video[/b] when the game starts.
+[*][b]Skips the main menu[/b]: presses Continue as soon as it is available, which loads the last realm of your last played character.
+[*][b]Hold Left Shift while the game loads[/b] to stay in the main menu this time. The key can be changed in Options.
+[*]Settings at the bottom of [b]Options > Gameplay[/b]: [i]Skip Videos on Launch[/i] and [i]Skip Main Menu on Launch[/i] (both on by default, they take effect at the next launch), and [i]Hold to Stay in Main Menu[/i]: click it and press any key to change the key.
+[/list]
+
+[size=4][b]Good to know[/b][/size]
+[list]
+[*]The mod uses the game's own Continue button, so the game decides where to go and handles problems: if the realm can't be joined, you land in the main menu as usual.
+[*]It happens once per launch. Quitting to the main menu from a realm keeps you there.
+[*]With no character yet there is nothing to continue, and the mod leaves the menu alone.
+[*]The loading itself takes as long as before; the mod removes the stops around it.
+[*]Replaces SkipLogo: remove that mod if you have it, Quick Start already skips the logo.
+[/list]
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*][url=https://github.com/LavaGang/MelonLoader/releases]MelonLoader[/url] 0.7.3 or newer.
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[list=1]
+[*]Install MelonLoader into the game folder and start the game once.
+[*]Extract the mod's zip into the game folder, so that [i]QuickStart.dll[/i] ends up in the [i]Mods[/i] folder.
+[/list]
+
+[b]Steam Deck / Linux (Proton):[/b]
+[list=1]
+[*]Copy the files from MelonLoader's [i]MelonLoader.x64.zip[/i] (the Windows build) into the game folder, and the mod into [i]Mods[/i].
+[*]In Steam, open the game's Properties > General > Launch Options and enter: [code]WINEDLLOVERRIDES="version=n,b" %command%[/code]
+[*]Start the game. On the first start MelonLoader installs the .NET runtime it needs by itself; that start takes a minute or two.
+[*]Without a keyboard there is no Left Shift to hold: turn Skip Main Menu on Launch off when you want the menu, or map a back button to Left Shift in Steam Input.
+[/list]
+
+[size=4][b]Compatibility[/b][/size]
+[list]
+[*]Tested with game build 29466 and MelonLoader 0.7.3 on Windows.
+[*]Nothing in the game simulation or your save is changed. Continue works exactly as when you click it, online realms included.
+[*]All settings are also in [i]UserData/MelonPreferences.cfg[/i], section [QuickStart]: the key to hold, an optional delay before pressing Continue, and more.
+[/list]
+
+[size=4][b]Credits[/b][/size]
+[list]
+[*]Inspired by [url=https://www.nexusmods.com/norestforthewicked/mods/9]SkipLogo[/url] by Fr4nsson, which skips the logo video, and by PEAKFastStartup by CTNOriginals for PEAK, which skips its menu.
+[/list]
+
+[size=4][b]Source[/b][/size]
+Source code, changelog and issue tracker: [url=https://github.com/vergir/NRftW-QuickStart]https://github.com/vergir/NRftW-QuickStart[/url]
+License: MIT
