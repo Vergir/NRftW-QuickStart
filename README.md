@@ -1,10 +1,13 @@
 # Quick Start
 
-![Quick Start](docs/pics/nexus/cover.jpg)
+![Quick Start](docs/pics/nexus/header.jpg)
 
 A [MelonLoader](https://github.com/LavaGang/MelonLoader) mod for **No Rest for the Wicked** that takes you from the
 desktop straight into your realm: launch the game and you arrive in the world with your last played character, without
 touching anything.
+
+Download from [Nexus Mods](https://www.nexusmods.com/norestforthewicked/mods/105) or the
+[GitHub releases](https://github.com/vergir/NRftW-QuickStart/releases/latest).
 
 ## Features
 
