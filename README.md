@@ -6,8 +6,7 @@ A [MelonLoader](https://github.com/LavaGang/MelonLoader) mod for **No Rest for t
 desktop straight into your realm: launch the game and you arrive in the world with your last played character, without
 touching anything.
 
-Download from [Nexus Mods](https://www.nexusmods.com/norestforthewicked/mods/105) or the
-[GitHub releases](https://github.com/vergir/NRftW-QuickStart/releases/latest).
+Download: [Nexus Mods](https://www.nexusmods.com/norestforthewicked/mods/105) · [GitHub releases](https://github.com/vergir/NRftW-QuickStart/releases/latest)
 
 ## Features
 
